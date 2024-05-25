@@ -28,8 +28,8 @@ plt.ylabel('Number of Crimes', fontweight='bold')
 plt.xticks(fontweight='bold')
 plt.yticks(fontweight='bold')
 plt.grid(True)
-plt.savefig("22098823_1.png", dpi=300)
-#plt.show()
+plt.show()
+
 # Filter the data for the year 2000
 data_2014 = crime_data[crime_data['Year'] == 2014].iloc[0]
 
@@ -58,7 +58,7 @@ plt.legend(loc='upper right')
 plt.xticks(rotation=20, fontweight='bold')
 plt.yticks( fontweight='bold')
 plt.grid(True)
-plt.savefig("22098823_2.png", dpi=300)
+plt.show()
 
 
 # Filter the data for the year 2014
@@ -83,7 +83,7 @@ plt.ylabel('Number of Crimes',fontweight='bold')
 plt.xticks( fontweight='bold')
 plt.yticks( fontweight='bold')
 plt.grid(True)
-plt.savefig("22098823_3.png", dpi=300)
+plt.show()
 
 
 
@@ -102,4 +102,4 @@ plt.legend()
 plt.xticks( fontweight='bold')
 plt.yticks( fontweight='bold')
 plt.grid(True)
-plt.savefig("22098823_4.png", dpi=300)
+plt.show()
